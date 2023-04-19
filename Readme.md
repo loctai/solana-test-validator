@@ -4,7 +4,7 @@ git clone https://github.com/solana-labs/solana.git
 ```
 
 ## build
-```
+```shell
 cd solana/validator
 ```
 in ```solana/validator```
