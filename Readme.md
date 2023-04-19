@@ -1,5 +1,5 @@
 ## fetch
-```
+```shell
 git clone https://github.com/solana-labs/solana.git
 ```
 
@@ -9,7 +9,7 @@ cd solana/validator
 ```
 in ```solana/validator```
 
-```
+```shell
 echo '#!/usr/bin/env bash
 
 here="$(dirname "$0")"
@@ -20,11 +20,11 @@ exec cargo build --release --manifest-path="$here"/Cargo.toml --bin solana-test-
 ```
 
 ## test
-```
+```shell
 cd ../target/release
 ```
 in ```solana/target/release```
 
-```
+```shell
 ./solana-test-validator
 ```
