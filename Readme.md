@@ -3,6 +3,13 @@
 git clone https://github.com/solana-labs/solana.git
 ```
 
+git checkout v1.9.4.
+cargo build --release --bin solana-test-validator
+cd validator
+./solana-test-validator
+
+## OR
+
 ## build
 ```shell
 cd solana/validator
